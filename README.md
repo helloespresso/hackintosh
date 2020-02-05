@@ -180,6 +180,12 @@ Opencore Vanilla Desktop Guide：https://khronokernel-2.gitbook.io/opencore-vani
 
 核心的开发者们搭建了hackintosh的基本框架，众多的爱好者们进行了各色各样的装修，我们共同维持着这样的开源生态。
 
-对opencore、内核扩展、教程博客的开发者们表示感谢，也对苹果公司表示感谢，虽然这有违版权意识，但是我们穷，而且希望在这个开源社区里找到更多乐趣。
+对opencore、内核扩展、教程博客的开发者们表示感谢，也对苹果公司表示感谢，虽然这有违版权保护的初衷，但是我们穷，而且希望在这个开源社区里找到更多乐趣。
 
+# Buy Me Coffee
 
+如果你觉得我的项目对你有用，欢迎请我喝杯咖啡，当然，我们都是家境贫寒的伙伴，请随意，嘻嘻～～
+
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG) | ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.JPG) |
