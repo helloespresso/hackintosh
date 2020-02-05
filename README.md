@@ -188,4 +188,4 @@ Opencore Vanilla Desktop Guide：https://khronokernel-2.gitbook.io/opencore-vani
 
 |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG) | ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.JPG) |
+| <img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG" alt="Alipay" style="zoom:25%;" /> | ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.JPG) |
