@@ -188,4 +188,5 @@ Opencore Vanilla Desktop Guide：https://khronokernel-2.gitbook.io/opencore-vani
 
 |                       支付宝（Alipay）                       |                        微信（WeChat）                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG" style="max-width:%27!important;" /> | <img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.JPG" style="max-width:20%!important;" /> |                                        ______
+| ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.jpg) | ![img](https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.jpg) |
+
