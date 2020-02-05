@@ -1,24 +1,24 @@
 # 前言
 
-必须先感谢苹果公司，如果他们要阻止hackintosh，有不只一百种方法。我自己也在使用iphone，iPad pro等苹果设备。hackintosh很有趣，尤其对于我这种家境贫寒的人来说，但仅供爱好者交流，请勿用作商业用途。
+必须先感谢苹果公司，如果他们要阻止hackintosh，有不止一百种方法。我自己也在使用iphone，iPad pro等苹果设备。hackintosh很有趣，尤其对于我这种家境贫寒的人来说，但仅供爱好者交流，请勿用作商业用途。
 
 # 平台硬件
 
-| 硬件                                                       | 型号                                                         | 备注                                                         |
-| ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 主板                                                       | GIGABYTE AORUS Z390 I PRO WIFI                               | BIOS版本号：F8c，**解锁CFG**  ！！！                         |
-| CPU                                                        | Intel i9 9900K                                               | 建议买带核显的，否则一些重要功能不完善                       |
-| 内存                                                       | ADATA-DDR4-2133-8G  *2                                       | 我的条子用了3～4年了，不建议超频，否则可能会造成macOS运行不稳定 |
-| 显卡                                                       | 华硕猛禽R9-380-4G                                            | BIOS中显示输出设置为PCIe Slot（独立显卡），显示器视频连接线一定要直接接在独立显卡的接口上，否则你需要更改opencore的配置文件的相关选项 |
-| 硬盘                                                       | 三星（SAMSUNG） 960EVO  M.2接口(NVMe协议)单面SSD固态硬盘     | 用于Mac OS                                                   |
-| 硬盘                                                       | 闪迪（SanDisk）240GB SSD固态硬盘 SATA3.0接口                 | 用于Windows 10                                               |
-| 机箱                                                       | Sunmilo-T03-A4机箱，支持240水冷，自带PCIEx16延长线，支持双风扇长显卡 | 支持镂空定制和侧板材质                                       |
-| 散热器                                                     | 美商海盗船 (USCORSAIR) H100i PRO RGB冷头 一体式CPU水冷散热器 | 240mm水冷                                                    |
-| 电源                                                       | 美商海盗船 (USCORSAIR) 额定600W SF600                        | SFX电源，如果都是默认频率，没发现带不动，我使用keyshot渲染4K，运行正常，macOS下你也没什么3A大作可玩 |
-| 显示器                                                     | 28英寸，4K（3840x2160）                                      | 使用DP视频连接线                                             |
-| BCM943602CS，2.4G：300M，5GAC：867M，蓝牙4.0，NGFF-Key B/M | Mac OS免驱动                                                 | 免驱动！                                                     |
-| 转接卡                                                     | BCM943602CS模块转m.2-M key , 搭配3条内置天线                 | 转接卡需要一个USB2.0的9Pin接口以支持蓝牙数据传输             |
-| 板载USB 9 Pin一分二转接板（可选）                          | 这块主板只有一个USB 9pin接口，BCM943602CS的蓝牙需要一个      | 我的水冷头其实也需要一个，用来在Windows下使用iCUE，但这不是必须的，所以我还没加，水冷的基本功能是正常的，只是不能自定义灯光和模式，用的是水冷的预设 |
+| 硬件                              | 型号                                                         | 备注                                                         |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 主板                              | GIGABYTE AORUS Z390 I PRO WIFI                               | BIOS版本号：F8c，**解锁CFG**  ！！！                         |
+| CPU                               | Intel i9 9900K                                               | 建议买带核显的，否则一些重要功能不完善                       |
+| 内存                              | ADATA-DDR4-2133-8G  *2                                       | 我的条子用了3～4年了，不建议超频，否则可能会造成macOS运行不稳定 |
+| 显卡                              | 华硕猛禽R9-380-4G                                            | BIOS中显示输出设置为PCIe Slot（独立显卡），显示器视频连接线一定要直接接在独立显卡的接口上，否则你需要更改opencore的配置文件的相关选项 |
+| 硬盘                              | 三星（SAMSUNG） 960EVO  M.2接口(NVMe协议)单面SSD固态硬盘     | 用于Mac OS                                                   |
+| 硬盘                              | 闪迪（SanDisk）240GB SSD固态硬盘 SATA3.0接口                 | 用于Windows 10                                               |
+| 机箱                              | Sunmilo-T03-A4机箱，支持240水冷，自带PCIEx16延长线，支持双风扇长显卡 | 支持镂空定制和侧板材质                                       |
+| 散热器                            | 美商海盗船 (USCORSAIR) H100i PRO RGB冷头 一体式CPU水冷散热器 | 240mm水冷                                                    |
+| 电源                              | 美商海盗船 (USCORSAIR) 额定600W SF600                        | SFX电源，如果都是默认频率，没发现带不动，我使用keyshot渲染4K，运行正常，macOS下你也没什么3A大作可玩 |
+| 显示器                            | 28英寸，4K（3840x2160）                                      | 使用DP视频连接线                                             |
+| 无线网卡+蓝牙                     | BCM943602CS，2.4G：300M，5GAC：867M，蓝牙4.0，NGFF-Key B/M   | macOS免驱动！建议搭配转接卡食用！                            |
+| 无线网卡转接卡                    | BCM943602CS模块转m.2-M key（NVME）, 搭配3条内置天线          | 转接卡需要一个USB2.0的9Pin接口以支持蓝牙数据传输             |
+| 板载USB 9 Pin一分二转接板（可选） | 这块主板只有一个USB 9pin接口，BCM943602CS的蓝牙需要一个      | 我的水冷头其实也需要一个，用来在Windows下使用iCUE，但这不是必须的，所以我还没加，水冷的基本功能是正常的，只是不能自定义灯光和模式，用的是水冷的预设 |
 
 # 项目特点
 
@@ -39,7 +39,7 @@ BIOS版本：F8c
 
 我已经给出了我的BIOS预设文件，将其放置到FAT32格式的U盘里，可通过BIOS界面加载该预设，或者遵循以下规则
 
-<!--以下配置项的具体路径可以从技嘉官方网站的主板的PDF格式的使用手册中查询-->
+*以下配置项的具体路径可以从技嘉官方网站的主板的PDF格式的使用手册中查询*
 
 ## 禁用
 
@@ -77,26 +77,26 @@ BIOS版本：F8c
 ## EFI
 
 - **BOOT**
-  - BOOTx64.efi----<!--必须的引导文件-->
+  - BOOTx64.efi----必须的引导文件
 - **OC**
-  - **OpenCore.efi**----<!--opencore引导器，核心文件-->
+  - **OpenCore.efi**----opencore引导器，核心文件
   - **ACPI**
-    - SSDT-PLUG.aml ----<!--启用原生电源管理-->
-    - SSDT-PMC.aml----–<!--启用原生NVRAM-->
+    - SSDT-PLUG.aml ----启用原生电源管理
+    - SSDT-PMC.aml----–启用原生NVRAM
   - **Drivers**
-    - HFSPlus.efi----<!--支持HFS文件系统格式的硬盘数据读写-->
-    - ApfsDriversLoader.efi----<!--支持APFS文件系统格式的硬盘数据读写-->
-    - FwRuntimeServices.efi----<!--核心驱动，完善NVRAM并提供一些内存管理功能-->
+    - HFSPlus.efi----支持HFS文件系统格式的硬盘数据读写
+    - ApfsDriversLoader.efi----支持APFS文件系统格式的硬盘数据读写
+    - FwRuntimeServices.efi----核心驱动，完善NVRAM并提供一些内存管理功能
   - **Kext**
-    - Lilu.kext----<!--必不可少的其他补丁的黄金搭档-->
-    - VirtualSMC.kext----<!--仿冒白苹果硬件的补丁-->
-    - AppleALC-----<!--声卡补丁-->
-    - WhateverGreen.kext----<!--显卡修复补丁-->
-    - IntelMausiEthernet.kext----<!--有线网卡驱动-->
-    - USBPorts.kext----<!--USB定制补丁，需要与机型匹配，在文件内的plist文件中编辑-->
-    - USBPower.kext---<!--USB电源补丁，需要与机型匹配，在文件内的plist文件中编辑-->
+    - Lilu.kext----必不可少的其他补丁的黄金搭档
+    - VirtualSMC.kext----仿冒白苹果硬件的补丁
+    - AppleALC-----声卡补丁
+    - WhateverGreen.kext----显卡修复补丁
+    - IntelMausiEthernet.kext----有线网卡驱动
+    - USBPorts.kext----USB定制补丁，需要与机型匹配，在文件内的plist文件中编辑
+    - USBPower.kext---USB电源补丁，需要与机型匹配，在文件内的plist文件中编辑
   - **Tool**
-    - CleanNvram.efi----<!--用于清理Nvram的内容，也可以使用Opencore自带的Nvram重置功能-->
+    - CleanNvram.efi----用于清理Nvram的内容，也可以使用Opencore自带的Nvram重置功能
 
 ## 特别说明
 
@@ -121,56 +121,56 @@ BIOS版本：F8c
 
 # config.plist自定义选项说明
 
-<!--我使用 ProperTree 进行编辑，不同的编辑器的 True/False 对应 Yes/No-->
+*我使用 ProperTree 进行编辑，不同的编辑器的 True/False 对应 Yes/No*
 
 ## NVRAM
 
 - Add
   - 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14
-    - UIScale----01  <!--我的显示器是4K，01确保显示不会被放大而虚化-->
+    - UIScale----01    我的显示器是4K，01确保显示不会被放大而虚化*
   - 7C436110-AB2A-4BBB-A880-FE41995C9F82
-    - boot-args----slide=1  <!--内存注入使用连续注入的方式，我去除了-v，因此引导不会显示任何debug信息-->
-- LegacyEnable----False <!--因为我们使用SSDT-PMC开启了原生NVRAM，因此选择false-->
+    - boot-args----slide=1    内存注入使用连续注入的方式，我去除了-v，因此引导不会显示任何debug信息*
+- LegacyEnable----False    因为我们使用SSDT-PMC开启了原生NVRAM，因此选择false*
 
 ## Booter
 
 - Quirks
-  - DevirtualiseMmio----False <!--因为实测KASLR方式无法使用，所以内存注入采用连续注入，况且KASLR也并非绝对安全-->
-  - DisableVariableWrite----False <!--我们是原生NVRAM-->
-  - ProvideCustomSlide----True <!--提供自定义Slide值支持，我的 slide=1-->
+  - DevirtualiseMmio----False   因为实测KASLR方式无法使用，所以内存注入采用连续注入，况且KASLR也并非绝对安全*
+  - DisableVariableWrite----False   *我们是原生NVRAM*
+  - ProvideCustomSlide----True    *提供自定义Slide值支持，我的 slide=1*
 
 ## DeviceProperties
 
 - Add
-  - PciRoot(0x0)/Pci(0x1f,0x3) <!--板载声卡的设备路径-->
-    - layout-id----01000000 <!--我的板载声卡为ALC1220，我选择注入声卡驱动id值为1-->
-  - PciRoot(0x0)/Pci(0x2,0x0) <!--核心显卡的设备路径-->
-    - AAPL,ig-platform-id----0300983E <!--我们显示输出使用独立显卡，核显用作加速-->
+  - PciRoot(0x0)/Pci(0x1f,0x3)    *板载声卡的设备路径*
+    - layout-id----01000000     *我的板载声卡为ALC1220，我选择注入声卡驱动id值为1*
+  - PciRoot(0x0)/Pci(0x2,0x0)     *核心显卡的设备路径*
+    - AAPL,ig-platform-id----0300983E     *我们显示输出使用独立显卡，核显用作加速*
 
 ## kernel
 
 - Quirks
-  - AppleCpuPmCfgLock----False <!--CFG-Lock解锁后设置为False-->
-  - AppleXcpmCfgLock----False <!--CFG-Lock解锁后设置为False-->
-  - XhciPortLimit----False <!--用于解除USB的15个端口限制，因为我们已经定制了USBPorts，所以不需要启用-->
+  - AppleCpuPmCfgLock----False     *CFG-Lock解锁后设置为False*
+  - AppleXcpmCfgLock----False     *CFG-Lock解锁后设置为False*
+  - XhciPortLimit----False     *用于解除USB的15个端口限制，因为我们已经定制了USBPorts，所以不需要启用*
 
 ## Misc
 
 - Boot
-  - PollAppleHotKeys----True <!--启用苹果原生快捷键，需要与KeySupport=Yes-->
-  - Resolution----3840x2160 <!--我的显示器为4K显示器，因此我设置为4K分辨率-->
-  - ShowPicker----True <!--显示Opencore的启动菜单，设置为False可以跳过显示启动项直接进入引导，在macOS中将启动磁盘设置为macOS所在的启动盘，每次开机或重启后就会默认引导macOS系统，这就是原生NVRAM的效果之一，关于NVRAM中存储了哪些信息，可以通过Hackintool查看-->
+  - PollAppleHotKeys----True     *启用苹果原生快捷键，需要与KeySupport=Yes*
+  - Resolution----3840x2160     *我的显示器为4K显示器，因此我设置为4K分辨率*
+  - ShowPicker----True     *显示Opencore的启动菜单，设置为False可以跳过显示启动项直接进入引导，在macOS中将启动磁盘设置为macOS所在的启动盘，每次开机或重启后就会默认引导macOS系统，这就是原生NVRAM的效果之一，关于NVRAM中存储了哪些信息，可以通过Hackintool查看*
 - Debug
-  - Target----0 <!--关闭日志记录，还你一个干干净的EFI分区，前提是Bug已经排除完毕-->
+  - Target----0     *关闭日志记录，还你一个干干净的EFI分区，前提是Bug已经排除完毕*
 - Security
-  - AllowNvramReset----True <!--允许在引导选择界面和快捷键按下式重置NVRAM-->
-  - AllowSetDefault----True <!--允许使用CTRL+Enter和CTRL+数字锁定默认启动项-->
-  - ExposeSensitiveData----True <!--暴露传感器数据，结合监测软件使用，如HWMonotorSMC2-->
+  - AllowNvramReset----True     *允许在引导选择界面和快捷键按下式重置NVRAM*
+  - AllowSetDefault----True     *允许使用CTRL+Enter和CTRL+数字锁定默认启动项*
+  - ExposeSensitiveData----True     *暴露传感器数据，结合监测软件使用，如HWMonotorSMC2*
 
 ## UEFI
 
 - Input
-  - KeySupport----True  <!--开启OC的内置键盘支持-->
+  - KeySupport----True  *开启OC的内置键盘支持*
 
 # 参考
 
