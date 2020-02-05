@@ -186,4 +186,7 @@ Opencore Vanilla Desktop Guide：https://khronokernel-2.gitbook.io/opencore-vani
 
 如果你觉得我的项目对你有用，欢迎请我喝杯咖啡，当然，我们都是家境贫寒的伙伴，请随意，嘻嘻～～
 
-<img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG" alt="Alipay" style="zoom:5%;" />
+|                       支付宝（Alipay）                       |                        微信（WeChat）                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/Alipay.JPG" alt="Alipay" style="zoom:27%;" /> | <img src="https://raw.githubusercontent.com/helloespresso/basicinfo/master/WeChat.JPG" alt="Alipay" style="zoom:20%;" /> |
+
