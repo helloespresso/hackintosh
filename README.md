@@ -1,6 +1,6 @@
 # 前言
 
-必须先感谢苹果公司，如果他们要阻止hackintosh，有不止一百种方法。我自己也在使用iphone，iPad pro等苹果设备。hackintosh很有趣，尤其对于我这种家境贫寒的人来说，但仅供爱好者交流，请勿用作商业用途。
+hackintosh很有趣，尤其对于我这种家境贫寒的人来说，但仅供爱好者交流，请勿用作商业用途。
 
 # 平台硬件
 
@@ -181,4 +181,5 @@ Opencore Vanilla Desktop Guide：https://khronokernel-2.gitbook.io/opencore-vani
 核心的开发者们搭建了hackintosh的基本框架，众多的爱好者们进行了各色各样的装修，我们共同维持着这样的开源生态。
 
 对opencore、内核扩展、教程博客的开发者们表示感谢，也对苹果公司表示感谢，虽然这有违版权意识，但是我们穷，而且希望在这个开源社区里找到更多乐趣。
+
 
