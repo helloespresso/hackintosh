@@ -163,7 +163,7 @@ BIOS版本：F8c
 - Debug
   - Target----0     `*关闭日志记录，还你一个干干净的EFI分区，前提是Bug已经排除完毕*`
 - Security
-  - AllowNvramReset----True     `*允许在引导选择界面和快捷键按下式重置NVRAM*`
+  - AllowNvramReset----True     `*允许在引导选择界面和快捷键按下时重置NVRAM*`
   - AllowSetDefault----True     `*允许使用CTRL+Enter和CTRL+数字锁定默认启动项*`
   - ExposeSensitiveData----True     `*暴露传感器数据，结合监测软件使用，如HWMonotorSMC2*`
 
